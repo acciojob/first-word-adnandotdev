@@ -1,7 +1,7 @@
 function firstWord(s) {
   // your code here
 	
-	let word = s.split(' ')
+	let word = s.trim().split(' ')
   return word[0]
 }
 
